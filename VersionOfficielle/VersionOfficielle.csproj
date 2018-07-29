@@ -51,57 +51,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAlert.cs" />
-    <Compile Include="CBot.cs" />
-    <Compile Include="CAllInPokerGame.cs" />
-    <Compile Include="CCarte.cs" />
-    <Compile Include="CDetectItem.cs" />
-    <Compile Include="CGGPokerTableInformations.cs" />
-    <Compile Include="CGGPokerBoardReader.cs" />
-    <Compile Include="CGGPokerConsantes.cs" />
-    <Compile Include="CGGPokerHandReader.cs" />
-    <Compile Include="CGGPokerSoftwareAction.cs" />
-    <Compile Include="CLog.cs" />
-    <Compile Include="CLogger.cs" />
-    <Compile Include="CMouseController.cs" />
-    <Compile Include="CPhoneNumber.cs" />
-    <Compile Include="CPlayer.cs" />
-    <Compile Include="CPokerPlayer.cs" />
-    <Compile Include="CPosition.cs" />
-    <Compile Include="CWindowsMethodes.cs" />
+    <Compile Include="Carte.cs" />
+    <Compile Include="Consantes.cs" />
+    <Compile Include="Analyseur.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\CPokerGame.cs" />
-    <Compile Include="Helpers\CPokerRangeConverter.cs" />
-    <Compile Include="Helpers\OpenWindowGetter.cs" />
-    <Compile Include="Interfaces\ITableInformations.cs" />
-    <Compile Include="CLogContainer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScreenCapture.cs" />
-    <Compile Include="Helpers\CScreenshot.cs" />
-    <Compile Include="ThirdParty\GlobalHotKey.cs" />
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -113,93 +92,37 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign0.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign1.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign02.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign2.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign3.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign4.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign5.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign6.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign7.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign8.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign9.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign12.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign22.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign32.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign42.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign52.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign62.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign72.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign82.bmp" />
-    <None Include="Resources\GGPoker\StackNumberSigns\GGPokerStackSign92.bmp" />
-    <None Include="Resources\GGPoker\Signs\GGPokerClove.bmp" />
-    <None Include="Resources\GGPoker\Signs\GGPokerDiamond.bmp" />
-    <None Include="Resources\GGPoker\Signs\GGPokerHeart.bmp" />
-    <None Include="Resources\GGPoker\Signs\GGPokerSpade.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB2.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB3.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB4.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB5.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB6.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB7.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB8.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB9.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerB10.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerBA.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerBJ.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerBK.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerBQ.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR2.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR3.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR4.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR5.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR6.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR7.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR8.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR9.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerR10.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerRA.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerRJ.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerRK.bmp" />
-    <None Include="Resources\GGPoker\Numbers\GGPokerRQ.bmp" />
-    <None Include="Resources\GGPoker\Misc\AllIn.bmp" />
-    <None Include="Resources\GGPoker\Misc\dealerJeton.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerAllInButton.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerFoldButton.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerOkButton.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerPlayersBorder.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerPlayersBorder2.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerRemoveChipLabel.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerSittingOut.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerSittingOut2.bmp" />
-    <None Include="Resources\GGPoker\Misc\TurnBmp.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber0.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber1.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber2.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber3.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber4.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber5.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber6.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber7.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber8.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumber9.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign0.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign1.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign2.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign3.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign4.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign5.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign6.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign7.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign8.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSign9.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerCardInHandBmp.bmp" />
-    <None Include="Resources\GGPoker\BetNumbersSign\GGPokerBetNumberPoint.bmp" />
-    <None Include="Resources\GGPoker\OurStackSigns\GGPokerOurStackSignPoint.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGDealMeInBmp.bmp" />
-    <None Include="Resources\GGPoker\Misc\GGPokerFoldButton2.bmp" />
-    <Content Include="Resources\Images\logo.jpg" />
+    <None Include="Resources\ImagesRef\Numbers\B2.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B3.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B4.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B5.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B6.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B7.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B8.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B9.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\B10.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\BA.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\BJ.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\BK.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\BQ.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R2.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R3.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R4.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R5.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R6.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R7.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R8.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R9.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\R10.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\RA.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\RJ.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\RK.bmp" />
+    <None Include="Resources\ImagesRef\Numbers\RQ.bmp" />
+    <Content Include="Resources\Sample4.bmp" />
+    <Content Include="Resources\Sample3.bmp" />
+    <Content Include="Resources\Sample2.bmp" />
+    <None Include="Resources\Sample1.bmp" />
+    <Content Include="Resources\Sample0.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

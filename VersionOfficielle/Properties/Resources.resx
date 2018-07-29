@@ -118,262 +118,97 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AllIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\AllIn.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dealerJeton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\dealerJeton.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerAllInButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerAllInButton.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="B9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\B9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\BA.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\BJ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerB9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerB9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\BK.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerBA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerBA.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\BQ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerBJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerBJ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerBK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerBK.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerBQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerBQ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerClove" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Signs\GGPokerClove.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerDiamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Signs\GGPokerDiamond.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerFoldButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerFoldButton.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerHeart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Signs\GGPokerHeart.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerOkButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerOkButton.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerPlayersBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerPlayersBorder.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\R9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerPlayersBorder2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerPlayersBorder2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\RA.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\RJ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\RK.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\\ImagesRef\\Numbers\RQ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sample0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sample0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sample1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sample1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sample2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sample2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sample3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sample3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GGPokerR8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerR9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerR9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerRA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerRA.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerRemoveChipLabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerRemoveChipLabel.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerRJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerRJ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerRK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerRK.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerRQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Numbers\GGPokerRQ.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerSittingOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerSittingOut.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerSittingOut2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerSittingOut2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerSpade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Signs\GGPokerSpade.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign02.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign12.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign22.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign32.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign42.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign52.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign62" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign62.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign72" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign72.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign82" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign82.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerStackSign92" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\StackNumberSigns\GGPokerStackSign92.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TurnBmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\TurnBmp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumber9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumber9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign5.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign6.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign8.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSign9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSign9.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerBetNumberPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\BetNumbersSign\GGPokerBetNumberPoint.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerCardInHandBmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerCardInHandBmp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerOurStackSignPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\OurStackSigns\GGPokerOurStackSignPoint.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGDealMeInBmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGDealMeInBmp.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GGPokerFoldButton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GGPoker\Misc\GGPokerFoldButton2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sample4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sample4.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

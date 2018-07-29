@@ -63,9 +63,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AllIn {
+        internal static System.Drawing.Bitmap B10 {
             get {
-                object obj = ResourceManager.GetObject("AllIn", resourceCulture);
+                object obj = ResourceManager.GetObject("B10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dealerJeton {
+        internal static System.Drawing.Bitmap B2 {
             get {
-                object obj = ResourceManager.GetObject("dealerJeton", resourceCulture);
+                object obj = ResourceManager.GetObject("B2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGDealMeInBmp {
+        internal static System.Drawing.Bitmap B3 {
             get {
-                object obj = ResourceManager.GetObject("GGDealMeInBmp", resourceCulture);
+                object obj = ResourceManager.GetObject("B3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerAllInButton {
+        internal static System.Drawing.Bitmap B4 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerAllInButton", resourceCulture);
+                object obj = ResourceManager.GetObject("B4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB10 {
+        internal static System.Drawing.Bitmap B5 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB10", resourceCulture);
+                object obj = ResourceManager.GetObject("B5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB2 {
+        internal static System.Drawing.Bitmap B6 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB2", resourceCulture);
+                object obj = ResourceManager.GetObject("B6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB3 {
+        internal static System.Drawing.Bitmap B7 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB3", resourceCulture);
+                object obj = ResourceManager.GetObject("B7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB4 {
+        internal static System.Drawing.Bitmap B8 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB4", resourceCulture);
+                object obj = ResourceManager.GetObject("B8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB5 {
+        internal static System.Drawing.Bitmap B9 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB5", resourceCulture);
+                object obj = ResourceManager.GetObject("B9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB6 {
+        internal static System.Drawing.Bitmap BA {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB6", resourceCulture);
+                object obj = ResourceManager.GetObject("BA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB7 {
+        internal static System.Drawing.Bitmap BJ {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB7", resourceCulture);
+                object obj = ResourceManager.GetObject("BJ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB8 {
+        internal static System.Drawing.Bitmap BK {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB8", resourceCulture);
+                object obj = ResourceManager.GetObject("BK", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerB9 {
+        internal static System.Drawing.Bitmap BQ {
             get {
-                object obj = ResourceManager.GetObject("GGPokerB9", resourceCulture);
+                object obj = ResourceManager.GetObject("BQ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBA {
+        internal static System.Drawing.Bitmap R10 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBA", resourceCulture);
+                object obj = ResourceManager.GetObject("R10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber0 {
+        internal static System.Drawing.Bitmap R2 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber0", resourceCulture);
+                object obj = ResourceManager.GetObject("R2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber1 {
+        internal static System.Drawing.Bitmap R3 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber1", resourceCulture);
+                object obj = ResourceManager.GetObject("R3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber2 {
+        internal static System.Drawing.Bitmap R4 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber2", resourceCulture);
+                object obj = ResourceManager.GetObject("R4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber3 {
+        internal static System.Drawing.Bitmap R5 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber3", resourceCulture);
+                object obj = ResourceManager.GetObject("R5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber4 {
+        internal static System.Drawing.Bitmap R6 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber4", resourceCulture);
+                object obj = ResourceManager.GetObject("R6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber5 {
+        internal static System.Drawing.Bitmap R7 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber5", resourceCulture);
+                object obj = ResourceManager.GetObject("R7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber6 {
+        internal static System.Drawing.Bitmap R8 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber6", resourceCulture);
+                object obj = ResourceManager.GetObject("R8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber7 {
+        internal static System.Drawing.Bitmap R9 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber7", resourceCulture);
+                object obj = ResourceManager.GetObject("R9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber8 {
+        internal static System.Drawing.Bitmap RA {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber8", resourceCulture);
+                object obj = ResourceManager.GetObject("RA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumber9 {
+        internal static System.Drawing.Bitmap RJ {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumber9", resourceCulture);
+                object obj = ResourceManager.GetObject("RJ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBetNumberPoint {
+        internal static System.Drawing.Bitmap RK {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBetNumberPoint", resourceCulture);
+                object obj = ResourceManager.GetObject("RK", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBJ {
+        internal static System.Drawing.Bitmap RQ {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBJ", resourceCulture);
+                object obj = ResourceManager.GetObject("RQ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBK {
+        internal static System.Drawing.Bitmap Sample0 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBK", resourceCulture);
+                object obj = ResourceManager.GetObject("Sample0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +333,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerBQ {
+        internal static System.Drawing.Bitmap Sample1 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerBQ", resourceCulture);
+                object obj = ResourceManager.GetObject("Sample1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +343,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerCardInHandBmp {
+        internal static System.Drawing.Bitmap Sample2 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerCardInHandBmp", resourceCulture);
+                object obj = ResourceManager.GetObject("Sample2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +353,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerClove {
+        internal static System.Drawing.Bitmap Sample3 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerClove", resourceCulture);
+                object obj = ResourceManager.GetObject("Sample3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,559 +363,9 @@ namespace VersionOfficielle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GGPokerDiamond {
+        internal static System.Drawing.Bitmap Sample4 {
             get {
-                object obj = ResourceManager.GetObject("GGPokerDiamond", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerFoldButton {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerFoldButton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerFoldButton2 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerFoldButton2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerHeart {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerHeart", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOkButton {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOkButton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign0 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign1 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign2 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign3 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign4 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign5 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign6 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign7 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign8 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSign9 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSign9", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerOurStackSignPoint {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerOurStackSignPoint", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerPlayersBorder {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerPlayersBorder", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerPlayersBorder2 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerPlayersBorder2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR10 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR10", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR2 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR3 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR4 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR5 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR6 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR7 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR8 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerR9 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerR9", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerRA {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerRA", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerRemoveChipLabel {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerRemoveChipLabel", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerRJ {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerRJ", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerRK {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerRK", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerRQ {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerRQ", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerSittingOut {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerSittingOut", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerSittingOut2 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerSittingOut2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerSpade {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerSpade", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign0 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign02 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign02", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign1 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign12 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign12", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign2 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign22 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign22", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign3 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign32 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign4 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign42 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign42", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign5 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign52 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign52", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign6 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign62 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign62", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign7 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign72 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign72", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign8 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign82 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign82", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign9 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign9", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GGPokerStackSign92 {
-            get {
-                object obj = ResourceManager.GetObject("GGPokerStackSign92", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap TurnBmp {
-            get {
-                object obj = ResourceManager.GetObject("TurnBmp", resourceCulture);
+                object obj = ResourceManager.GetObject("Sample4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

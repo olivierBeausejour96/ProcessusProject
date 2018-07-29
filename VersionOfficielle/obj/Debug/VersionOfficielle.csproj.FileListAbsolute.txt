@@ -17,3 +17,11 @@ C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\Vers
 C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\VersionOfficielle.exe
 C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
 C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\WindowScrape.dll
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
