@@ -25,3 +25,6 @@ C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle
 C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
 C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
 C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
