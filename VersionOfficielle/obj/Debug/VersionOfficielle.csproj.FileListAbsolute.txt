@@ -28,3 +28,9 @@ C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle
 C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
 C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
 C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csprojResolveAssemblyReference.cache
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
