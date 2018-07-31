@@ -23,6 +23,7 @@ namespace VersionOfficielle
 
         public Bitmap RetournerBmpValeurCarte1()
         {
+            //Crop limage echantillon pour obtenir seulement la valeur de la carte 1 et effectue lanalyse de cette derniere
             Bitmap bmp = FFCurrentImage;
             Rectangle zoneTypeCarte1 = new Rectangle(Consantes.HAND_OFFSET1_WIDTH, Consantes.HAND_OFFSET1_HEIGHT, Consantes.HAND_SIGN_RECTANGLE_WIDTH, Consantes.HAND_SIGN_RECTANGLE_HEIGHT);
             bmp = (Bitmap)bmp.Clone(zoneTypeCarte1, bmp.PixelFormat);
@@ -31,6 +32,7 @@ namespace VersionOfficielle
 
         public Bitmap RetournerBmpValeurCarte2()
         {
+            //Crop limage echantillon pour obtenir seulement la valeur de la carte 2 et effectue lanalyse de cette derniere
             Bitmap bmp = FFCurrentImage;
             Rectangle zoneValueCarte2 = new Rectangle(Consantes.HAND_OFFSET2_WIDTH, Consantes.HAND_OFFSET1_HEIGHT, Consantes.HAND_VALUE_RECTANGLE_WIDTH, Consantes.HAND_VALUE_RECTANGLE_HEIGHT);
             bmp = (Bitmap)bmp.Clone(zoneValueCarte2, bmp.PixelFormat);
@@ -40,6 +42,7 @@ namespace VersionOfficielle
 
         public List<Bitmap> RetournerListeBmpValeur(Carte.Type _type)
         {
+            //Images de references
             List<Bitmap> bmpList = new List<Bitmap>();
 
             if ((_type == Carte.Type.Diamonds) || (_type == Carte.Type.Hearts))
@@ -80,6 +83,7 @@ namespace VersionOfficielle
 
         public unsafe Dictionary<int, int> STRetournerDecompteValeur(Bitmap bmp2, Carte.Type theSign)
         {
+            //Fonction faisant lanalyse selon la strategie SingleThread
             BitmapData bmp = bmp2.LockBits(new Rectangle(0, 0, bmp2.Width, bmp2.Height), ImageLockMode.ReadOnly, bmp2.PixelFormat);
             List<Bitmap> bmpValueList = RetournerListeBmpValeur(theSign);
 
@@ -88,7 +92,6 @@ namespace VersionOfficielle
             {
                 bmpReferences.Add(bmpValueList[i].LockBits(new Rectangle(0, 0, bmpValueList[i].Width, bmpValueList[i].Height), ImageLockMode.ReadOnly, bmpValueList[i].PixelFormat));
             }
-
 
             int bytesPerPixel = System.Drawing.Bitmap.GetPixelFormatSize(bmp2.PixelFormat) / 8;
             int heightInPixels = bmp.Height;
@@ -136,6 +139,7 @@ namespace VersionOfficielle
         static readonly object o = new object();
         private unsafe void MethodWithParameter(ref List<BitmapData> bmpReferences, ref byte* ptrFirstPixel, ref BitmapData bmp, ref byte*[] ptrSignArray, ref int widthInBytes, ref int bytesPerPixel, ref Dictionary<int, int> decompte)
         {
+            //corps des processus parallele
             int y;
             lock (o)
             {
@@ -159,6 +163,7 @@ namespace VersionOfficielle
         }
         public unsafe Dictionary<int, int> MTRetournerDecompteValeur(Bitmap bmp2, Carte.Type theSign)
         {
+            //Fonction faisant lanalyse selon la strategie MultiThread
             BitmapData bmp = bmp2.LockBits(new Rectangle(0, 0, bmp2.Width, bmp2.Height), ImageLockMode.ReadOnly, bmp2.PixelFormat);
             List<Bitmap> bmpValueList = RetournerListeBmpValeur(theSign);
 
@@ -210,73 +215,9 @@ namespace VersionOfficielle
             return decompte;
         }
 
-        public Carte.Valeur RetournerValeur(Dictionary<int, int> decompte)
-        {
-            int min = 0;
-            for (int i = 0; i < decompte.Count; ++i)
-                if (decompte[min] > decompte[i])
-                    min = i;
-
-            switch (min)
-            {
-                case 0:
-                    return Carte.Valeur.Two;
-                case 1:
-                    return Carte.Valeur.Three;
-                case 2:
-                    return Carte.Valeur.Four;
-                case 3:
-                    return Carte.Valeur.Five;
-                case 4:
-                    return Carte.Valeur.Six;
-                case 5:
-                    return Carte.Valeur.Seven;
-                case 6:
-                    return Carte.Valeur.Eight;
-                case 7:
-                    return Carte.Valeur.Nine;
-                case 8:
-                    return Carte.Valeur.Ten;
-                case 9:
-                    return Carte.Valeur.Jack;
-                case 10:
-                    return Carte.Valeur.Queen;
-                case 11:
-                    return Carte.Valeur.King;
-                case 12:
-                    return Carte.Valeur.Ace;
-                default:
-                    throw new InvalidOperationException("La valeur de la carte n'est pas valide");
-            }
-        }
-
-        public int[] getOrderedList(Dictionary<int, int> decompte)
-        {
-            int[] myList = new int[decompte.Count];
-
-            for (int i = 0; i < decompte.Count; i++)
-            {
-                myList[i] = decompte[i] / 100000;
-            }
-            int min;
-            for (int i = 0; i < decompte.Count - 1; i++)
-            {
-                min = i;
-                for (int j = i + 1; j < decompte.Count; j++)
-                {
-                    if (myList[min] > myList[j])
-                        min = j;
-                }
-                int lol = myList[i];
-                myList[i] = myList[min];
-                myList[min] = lol;
-            }
-
-            return myList;
-        }
-
         public string valueStatement(Dictionary<int, int> decompte)
         {
+            //Affichage seulement
             string statement = "Two Accuracy: " + decompte[0] / 100000 + "\n";
             statement += "Three Accuracy: " + decompte[1] / 100000 + "\n";
             statement += "Four Accuracy: " + decompte[2] / 100000 + "\n";
@@ -354,6 +295,8 @@ namespace VersionOfficielle
 
         public string STvalueStatement1()
         {
+            //Effectue lanalyse de la carte 1 selon la strategie SingleThread avec les sets de references rouge et noir
+            //Retourne le meilleur resultat des deux sets
             var redDecompte = STRetournerDecompteValeur(RetournerBmpValeurCarte1(), Carte.Type.Hearts);
             var redMin = redDecompte.Aggregate((l, r) => l.Value < r.Value ? l : r).Value;
             var blackDecompte = STRetournerDecompteValeur(RetournerBmpValeurCarte1(), Carte.Type.Spades);
@@ -373,6 +316,8 @@ namespace VersionOfficielle
 
         public string MTvalueStatement1()
         {
+            //Effectue lanalyse de la carte 1 selon la strategie MultiThread avec les sets de references rouge et noir
+            //Retourne le meilleur resultat des deux sets
             var redDecompte = MTRetournerDecompteValeur(RetournerBmpValeurCarte1(), Carte.Type.Hearts);
             var redMin = redDecompte.Aggregate((l, r) => l.Value < r.Value ? l : r).Value;
             var blackDecompte = MTRetournerDecompteValeur(RetournerBmpValeurCarte1(), Carte.Type.Spades);
@@ -392,6 +337,8 @@ namespace VersionOfficielle
 
         public string STvalueStatement2()
         {
+            //Effectue lanalyse de la carte 2 selon la strategie SingleThread avec les sets de references rouge et noir
+            //Retourne le meilleur resultat des deux sets
             var redDecompte = STRetournerDecompteValeur(RetournerBmpValeurCarte2(), Carte.Type.Hearts);
             var redMin = redDecompte.Aggregate((l, r) => l.Value < r.Value ? l : r).Value;
             var blackDecompte = STRetournerDecompteValeur(RetournerBmpValeurCarte2(), Carte.Type.Spades);
@@ -409,6 +356,8 @@ namespace VersionOfficielle
 
         public string MTvalueStatement2()
         {
+            //Effectue lanalyse de la carte 2 selon la strategie MultiThread avec les sets de references rouge et noir
+            //Retourne le meilleur resultat des deux sets
             var redDecompte = MTRetournerDecompteValeur(RetournerBmpValeurCarte2(), Carte.Type.Hearts);
             var redMin = redDecompte.Aggregate((l, r) => l.Value < r.Value ? l : r).Value;
             var blackDecompte = MTRetournerDecompteValeur(RetournerBmpValeurCarte2(), Carte.Type.Spades);
