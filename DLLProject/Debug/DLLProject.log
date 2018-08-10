@@ -1,0 +1,48 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DLLProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  dllmain.cpp
+  OpenCLImageAnalyse.cpp
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(161): warning C4273: 'OpenCLImageAnalyse::OCL': inconsistent dll linkage
+  c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.h(13): note: see previous definition of 'OCL'
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(204): warning C4101: 'retInfo': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(205): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(347): warning C4838: conversion from 'const int' to 'size_t' requires a narrowing conversion
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(367): warning C4273: 'OpenCLImageAnalyse::MatMulV1Call': inconsistent dll linkage
+  c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.h(14): note: see previous definition of 'MatMulV1Call'
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(413): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(397): warning C4101: 'retInfo': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(398): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(495): warning C4838: conversion from 'const int' to 'size_t' requires a narrowing conversion
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(516): warning C4273: 'OpenCLImageAnalyse::MatMulV2Call': inconsistent dll linkage
+  c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.h(15): note: see previous definition of 'MatMulV2Call'
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(562): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(546): warning C4101: 'retInfo': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(547): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(647): warning C4838: conversion from 'const int' to 'size_t' requires a narrowing conversion
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(668): warning C4273: 'OpenCLImageAnalyse::MatMulV3Call': inconsistent dll linkage
+  c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.h(16): note: see previous definition of 'MatMulV3Call'
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(714): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(698): warning C4101: 'retInfo': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(699): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(762): warning C4273: 'OpenCLImageAnalyse::BitmapAnalyse': inconsistent dll linkage
+  c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.h(19): note: see previous definition of 'BitmapAnalyse'
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(781): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(783): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(789): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(791): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(793): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(796): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(847): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(861): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(873): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(882): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(913): warning C4273: 'OpenCLImageAnalyse::BitmapAnalyseV2': inconsistent dll linkage
+  c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.h(20): note: see previous definition of 'BitmapAnalyseV2'
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(955): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(963): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(972): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(986): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(993): warning C4018: '<': signed/unsigned mismatch
+c:\users\beao3002\desktop\processusproject\dllproject\openclimageanalyse.cpp(995): warning C4018: '<': signed/unsigned mismatch
+     Creating library C:\Users\beao3002\Desktop\ProcessusProject\Debug\OpenCLDLL.lib and object C:\Users\beao3002\Desktop\ProcessusProject\Debug\OpenCLDLL.exp
+  DLLProject.vcxproj -> C:\Users\beao3002\Desktop\ProcessusProject\Debug\OpenCLDLL.dll

@@ -57,14 +57,14 @@ namespace VersionOfficielle
 
             foreach (var sample in samples)
             {
+
                 qwe.MTvalueStatement1();
                 qwe.MTvalueStatement2();
-
-                watch.Stop();
             }
+            watch.Stop();
 
             var elapsedMs = watch.ElapsedMilliseconds;
-            MessageBox.Show("Time taken for SingleThread: " + elapsedMs + "ms");
+            MessageBox.Show("Time taken for MultiThread: " + elapsedMs + "ms");
         }
 
         private void qwe(Bitmap sample)
@@ -114,6 +114,11 @@ namespace VersionOfficielle
         {
             //s4
             qwe(Properties.Resources.Sample4);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            TestingClass.testBitmapDistancesV2();
         }
     }
 }

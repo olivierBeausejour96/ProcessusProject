@@ -54,6 +54,7 @@
     <Compile Include="Carte.cs" />
     <Compile Include="Consantes.cs" />
     <Compile Include="Analyseur.cs" />
+    <Compile Include="OpenCLImageAnalyseDLL.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -63,6 +64,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestingClass.cs" />
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -90,7 +92,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ImagesRef\Numbers\B2.bmp" />
     <None Include="Resources\ImagesRef\Numbers\B3.bmp" />
@@ -123,6 +127,12 @@
     <Content Include="Resources\Sample2.bmp" />
     <None Include="Resources\Sample1.bmp" />
     <Content Include="Resources\Sample0.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLLProject\DLLProject.vcxproj">
+      <Project>{c1c763ca-75f7-46b4-b9be-3eea6f9327e3}</Project>
+      <Name>OpenCLDLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
